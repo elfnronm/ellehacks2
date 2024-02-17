@@ -1,0 +1,115 @@
+.nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav a {
+    display: inline-block; /* Make the links inline-block to apply padding */
+    padding: 15px 30px; /* Increase padding for a bigger button */
+    border-radius: 10px; /* Make the buttons more squareish */
+    font-size: 18px; /* Increase font size */
+    background-color: #f39c12; /* Default background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    margin: 10px; /* Add margin between buttons */
+}
+
+.nav a:hover {
+    background-color: #e67e22; /* Change background color on hover */
+}
+
+
+
+#elle {
+    width: 150px;
+}
+
+#homelink {
+    background-color: #f39c12; /* Turuncu arka plan */
+    color: white; /* Beyaz metin */
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.w3-bar-item {
+
+    padding: 10px 15px; /* Düğme boyutu */
+    margin: 0 5px; /* Kenar boşluğu */
+    text-decoration: none; /* Metin altı çizgisi yok */
+    border-radius: 5px; /* Köşeleri yuvarlak yap */
+    transition: background-color 0.3s; /* Geçiş efekti */
+    background-color: #f39c12;
+    color: white;
+
+}
+
+
+
+#about-link {
+    background-color: #3498db; /* Mavi arka plan */
+    color: white; /* Beyaz metin */
+}
+
+/* Menu bağlantısı için stil */
+#menu-link {
+    background-color: #f39c12;
+    color: white; /* Beyaz metin */
+}
+
+/* Contact bağlantısı için stil */
+#contact-link {
+    background-color: #e74c3c; /* Kırmızı arka plan */
+    color: white; /* Beyaz metin */
+}
+
+.w3-bar-item:hover {
+    background-color: #928989; /* Hover durumunda farklı bir renk */
+}
+
+.main-theme {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-image {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.description{
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #004225;
+    font-family: Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px; /* Increase font size for better readability */
+    line-height: 1.6; /* Add some spacing between lines */
+    color: #333; /* Darken the text color for better contrast */
+    margin-top: 20px; /* Increase top margin for separation */
+    margin-bottom: 20px; /* Increase bottom margin for separation */
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+#explanation{
+    font-size: 20px; /* Increase font size for emphasis */
+    color: #444; /* Darken the text color slightly */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    max-width: 800px; /* Limit the width for better readability */
+}
+
