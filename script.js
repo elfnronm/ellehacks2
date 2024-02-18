@@ -125,3 +125,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+const images = [
+    "images/tree.jpg",
+    "images/tree2.jpg",
+    "images/tree3.jpg"
+    // Add more images if needed
+];
+
+const mainImage = document.querySelector("#main-image");
+let index = 0;
+
+function changeImage() {
+    mainImage.src = images[index];
+    index = (index + 1) % images.length;
+}
+
+setInterval(changeImage, 3000); // Change image every 3 seconds

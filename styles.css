@@ -82,16 +82,18 @@
 }
 
 .main-image {
-    width: 80%;
-    margin: auto;
-    display:block;
+    width: 100%; /* Resmi tam sayfa genişliğinde yap */
+    height: auto; /* Yüksekliği otomatik ayarla */
+    margin-left: auto; /* Sol kenarı otomatik ayarla */
+    margin-right: auto; /* Sağ kenarı otomatik ayarla */
+    display: block; /* Resmi blok element olarak göster */
     
 }
 
 .scroll-down {
     text-align: justify;
-    padding: 0 20px;
-    margin-top: 20px;
+    padding: 20px;
+    
     background-color: rgb(234, 231, 198);
 
 }
